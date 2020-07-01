@@ -1,0 +1,143 @@
+/* GLOBAL */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+body {
+    background: #ffffff;
+    font-family: 'Playfair Display', serif !important;
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+}
+
+h1,
+h2
+ {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: capitalize;
+}
+h3,
+h4 {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 43px;
+    text-transform: capitalize;
+}
+h5,
+h6 {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+
+p {
+    font-family: Roboto, 'Open Sans', sans-serif;
+}
+
+a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+    margin: 0 1.2rem !important;
+    font-size: 1rem;
+}
+
+a:hover {
+    color: #000000 !important;
+    text-decoration: none !important;
+}
+
+/* Nav */
+
+.navbar {
+    background-color: #1F252A !important;
+}
+
+/* HeroImage */
+.hero {
+    background: url("../images/hero-Image.png") center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.hero-text {
+    padding-top: 8rem;
+}
+
+/* cards */
+.card-img-top {
+    width: 13rem;
+    height: 21.5rem;
+
+}
+
+.spacer {
+    height: 4rem;
+    background: #feffff;
+}
+
+.img-card {
+    margin-top: 6rem;
+    position: absolute;
+    border: 20px solid #feffff;
+}
+.overlay {
+    position: relative;
+    top: 100px;
+    left: 12%;
+}
+
+#clients {
+    background-color: #1F252A;
+    max-width: 926px;
+    height: 150px;
+    position: relative;
+    top: -5rem;
+}
+
+/* ABOUT SECTION  */
+.about-img {
+     background: url("../images/hand\ holding\ camera.png") center center no-repeat;
+     background-size: cover;
+     height: auto;
+     width: 970px;
+}
+.card {
+    padding: 3rem;
+}
+
+section {
+    padding: 1.5rem;
+}
+
+#services {
+    height: 100vh;
+}
+figure img {
+    max-width: 287px;
+    height: auto;
+}
+
+/* Media Queries */
+@media screen and (max-width:1024px) {
+    
+}
+
+@media screen and (max-width:768px) {
+    
+}
